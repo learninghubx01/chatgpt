@@ -1,3 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rfc:RFC_READ_TABLE.Response xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+    <ET_DATA/>
+    <DATA>
+        <item>
+            <WA>ACCOUNTINGPOSTINGSTATUS A</WA>
+        </item>
+        <item>
+            <WA>ACCOUNTINGPOSTINGSTATUS C</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZF2</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZFS</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZG2</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZL2</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZG3</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZL3</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZS1</WA>
+        </item>
+        <item>
+            <WA>BILLINGDOCUMENTTYPE ZS2</WA>
+        </item>
+    </DATA>
+    <FIELDS>
+        <item>
+            <FIELDNAME>ZZFIELDNAME</FIELDNAME>
+            <OFFSET>000000</OFFSET>
+            <LENGTH>000040</LENGTH>
+            <TYPE>C</TYPE>
+            <FIELDTEXT>Field name</FIELDTEXT>
+        </item>
+        <item>
+            <FIELDNAME>ZZLOW</FIELDNAME>
+            <OFFSET>000040</OFFSET>
+            <LENGTH>000132</LENGTH>
+            <TYPE>C</TYPE>
+            <FIELDTEXT>Selection variants: Field content (LOW/HIGH)</FIELDTEXT>
+        </item>
+    </FIELDS>
+    <OPTIONS>
+        <item>
+            <TEXT>ZZPRAREA = 'QTC' AND ZZPROGRAM = 'ESA_S4_BILLINGDOCUMENTCREATE'</TEXT>
+        </item>
+    </OPTIONS>
+</rfc:RFC_READ_TABLE.Response>
+
+
 To read an Excel sheet and a specific cell using Groovy, you can use the Apache POI library, which allows for reading and writing Excel files.
 
 Here’s a basic Groovy script using Apache POI to read from an Excel file:
